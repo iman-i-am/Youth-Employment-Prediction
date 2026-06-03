@@ -1,14 +1,14 @@
 # Youth Employment Prediction
 
 ## Project Overview
-Analysis of youth employment outcomes in South Africa using advanced machine learning techniques. This project applied **Random Forest** and **XGBoost classifiers** to predict employment status from labor market survey data, following the **Team Data Science Process (TDSP)** lifecycle. The solution was recognized among the **Top 10 South African submissions** in the [Zindi - Predictive Insights competition](https://zindi.global/competitions/predictive-insights-youth-income-prediction-challenge), demonstrating both technical excellence and real‑world impact.
+Analysis of youth employment outcomes in South Africa using advanced machine learning techniques. This project applied **Random Forest** and **XGBoost classifiers** to predict employment status from labor market survey data, following the **Team Data Science Process (TDSP)** lifecycle. The solution was recognized among the **Top 10 South African submissions** in the [Zindi - Predictive Insights competition](https://zindi.global/competitions/predictive-insights-youth-income-prediction-challenge) , demonstrating both technical excellence and real‑world impact.
 
 ---
 
 ## 1. Business Understanding
 
 ### Problem Definition
-Youth unemployment is a critical challenge in South Africa. The goal of this project was to build predictive models that identify employment outcomes based on demographic and labor market features, enabling data‑driven insights for policy and decision‑making.
+Youth unemployment is a critical challenge in South Africa. The goal of this project was to build predictive models that identify employment outcomes based on demographic and labour market features, enabling data‑driven insights for policy and decision‑making.
 
 ### Scope
 - Development of two binary classification models (Random Forest, XGBoost).  
@@ -18,7 +18,7 @@ Youth unemployment is a critical challenge in South Africa. The goal of this pro
 
 ## 2. Data Acquisition & Understanding
 
-- **Source:** Four rounds of youth labor market surveys conducted at 6‑month intervals.  
+- **Source:** Four rounds of youth labour market surveys conducted at 6‑month intervals.  
 - **Content:** Numerical, categorical, and text responses, including demographics (age, gender, education) and labor market features (province, geography, tenure, school quintile).  
 - **Exploration:** Statistical analysis and visualizations to uncover distributions, correlations, and feature importance.  
 
@@ -78,4 +78,4 @@ These findings go beyond model performance - they provide a foundation for targe
 ---
 
 ## Conclusion
-This project demonstrates the application of machine learning to a pressing socio‑economic issue: youth unemployment. By combining rigorous data science methodology with advanced modeling, the solution achieved **top‑tier performance in a national competition**. The insights generated provide actionable understanding of the demographic and labor market factors influencing employment, showcasing both technical skill and the ability to deliver impactful, stakeholder‑ready analytics.
+This project demonstrates the application of machine learning to a pressing socio‑economic issue: youth unemployment. By combining rigorous data science methodology with advanced modelling, the solution achieved **top‑tier performance in a national competition**. The insights generated provide actionable understanding of the demographic and labour market factors influencing employment, showcasing both technical skill and the ability to deliver impactful, stakeholder‑ready analytics.
