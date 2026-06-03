@@ -1,11 +1,12 @@
 # Youth Employment Prediction
 
 ## Project Overview
-Analysis of youth employment outcomes in South Africa using advanced machine learning techniques. This project applied **Random Forest** and **XGBoost classifiers** to predict employment status from labor market survey data, following the **Team Data Science Process (TDSP)** lifecycle. The solution was recognized among the **Top 10 South African submissions** in the Zindi - Predictive Insights competition, demonstrating both technical excellence and real‑world impact.
+Analysis of youth employment outcomes in South Africa using advanced machine learning techniques. This project applied **Random Forest** and **XGBoost classifiers** to predict employment status from labor market survey data, following the **Team Data Science Process (TDSP)** lifecycle. The solution was recognized among the **Top 10 South African submissions** in the [Zindi - Predictive Insights competition](https://zindi.global/competitions/predictive-insights-youth-income-prediction-challenge), demonstrating both technical excellence and real‑world impact.
 
 ---
 
 ## 1. Business Understanding
+
 ### Problem Definition
 Youth unemployment is a critical challenge in South Africa. The goal of this project was to build predictive models that identify employment outcomes based on demographic and labor market features, enabling data‑driven insights for policy and decision‑making.
 
@@ -16,6 +17,7 @@ Youth unemployment is a critical challenge in South Africa. The goal of this pro
 ---
 
 ## 2. Data Acquisition & Understanding
+
 - **Source:** Four rounds of youth labor market surveys conducted at 6‑month intervals.  
 - **Content:** Numerical, categorical, and text responses, including demographics (age, gender, education) and labor market features (province, geography, tenure, school quintile).  
 - **Exploration:** Statistical analysis and visualizations to uncover distributions, correlations, and feature importance.  
@@ -23,6 +25,7 @@ Youth unemployment is a critical challenge in South Africa. The goal of this pro
 ---
 
 ## 3. Modeling
+
 ### Feature Engineering
 - Preprocessing: Missing value handling, categorical encoding, and standardization.  
 - Feature creation: Derived variables to enhance predictive power.  
@@ -38,11 +41,27 @@ Youth unemployment is a critical challenge in South Africa. The goal of this pro
 
 ---
 
-## 4. Project Setup
+## 4. Key Findings
+
+Exploratory data analysis surfaced several actionable insights into the factors driving youth employment outcomes in South Africa:
+
+- **Geography matters:** Urban candidates were significantly more likely to be employed than those from rural or suburban areas, pointing to structural inequality in labour market access.  
+- **Regional disparity:** Western Cape had the highest employment rate among all provinces, while North West had the lowest -highlighting the uneven distribution of economic opportunity across the country.  
+- **Gender gap:** Male candidates outperformed female candidates in employment outcomes, with females making up approximately 56% of survey participants yet achieving lower employment rates.  
+- **Education and funding:** Candidates who attended better-funded schools (quintile 1 & 2) showed stronger employment outcomes, despite those quintiles being associated with lower-income communities - suggesting school quality plays a meaningful role beyond socioeconomic background.  
+- **Tenure effect:** The tenure distribution was right-skewed, with most individuals having short prior work experience, indicating that prior exposure to the labour market is a differentiating factor.  
+
+These findings go beyond model performance - they provide a foundation for targeted interventions and evidence-based policy recommendations.
+
+---
+
+## 5. Project Setup
+
 ### File Structure
-- **Data**: Raw and submission files (not shared publicly).  
-- **Code**: Google Colab notebooks.  
-- **Docs**: Documentation including this README.  
+
+├── youth_employment.ipynb   # Main notebook (EDA, modelling, predictions)
+├── README.md
+└── LICENSE
 
 ### Execution Flow
 1. Data Preparation  
